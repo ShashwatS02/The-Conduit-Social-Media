@@ -1,0 +1,15 @@
+{
+  "name": "social-media-dashboard",
+  "version": "1.0.0",
+  "description": "Full-stack social media dashboard application.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
